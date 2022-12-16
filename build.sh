@@ -1,3 +1,3 @@
 pwd
 ls -al
-python -V
+env
