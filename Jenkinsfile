@@ -10,7 +10,7 @@ pipeline {
             steps {
                 // Get some code from a GitHub repository
                 git 'https://github.com/kiranvaltix/test'
-                sh "ls -al"
+                sh "./build.sh"
             }
         }
     }
